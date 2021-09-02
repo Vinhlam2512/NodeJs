@@ -30,12 +30,12 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
-      
     }
   },
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^5.3.3"
+    "express-handlebars": "^5.3.3",
+    "mongoose": "^6.0.4"
   },
   "devDependencies": {
     "husky": "^7.0.2",
