@@ -9,7 +9,7 @@ class SiteController {
             .then(courses => {
 
                 res.render('home', { 
-                    courses: multipleMongooseToObject(courses)
+                    courses: multipleMongooseToObject(courses) // courses truyền vào file home.hbs
                  })
             })
             // {courses} <=> {courses: courses}
